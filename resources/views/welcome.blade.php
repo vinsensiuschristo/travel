@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Treker - Home 02</title>
+<title>WAHYU MELKI TRAVEL</title>
 <!-- Stylesheets -->
 <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
 <link href="{{ asset('css/style.css') }}" rel="stylesheet">
@@ -936,130 +936,6 @@
                                 <div class="more-link"><a href="#" class="theme-btn"><span>View Details <i class="icon"><img src="{{asset('images/icons/logo-icon.svg')}}" alt=""></i></span></a></div>
                                 <div class="video-link"><a href="#" class="theme-btn"><i class="icon far fa-video-camera"></i></a></div>
                             </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Testimonials Section-->
-    <section class="testimonials-two">
-        <div class="auto-container">
-            <div class="title-box centered">
-                <div class="subtitle">Review & Testimonial</div>
-                <h2><i class="bg-vector"></i><span>Top Reviews for Treker</span></h2>
-            </div>
-            <div class="carousel-box">
-                <div class="slider-box">
-                    <div class="testi-carousel-two" id="testi-carousel-two">
-                        <!--Testi Block-->
-                        <div class="testi-block-two">
-                            <div class="inner-box">
-                                <div class="icon"><img src="{{asset('images/icons/quotes-2.svg')}}" alt=""></div>
-                                <div class="info">
-                                    <span class="name">William Smith</span>
-                                </div>
-                                <div class="text">" Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Occaecat cupidatat non proident,sunt in culpa qui officia deserunt anim id, sint occaecat cupidatat non provident"</div>
-                            </div>
-                        </div>
-
-                       <!--Testi Block-->
-                        <div class="testi-block-two">
-                            <div class="inner-box">
-                                <div class="icon"><img src="{{asset('images/icons/quotes-2.svg')}}" alt=""></div>
-                                <div class="info">
-                                    <span class="name">William Smith</span>
-                                </div>
-                                <div class="text">" Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Occaecat cupidatat non proident,sunt in culpa qui officia deserunt anim id, sint occaecat cupidatat non provident"</div>
-                            </div>
-                        </div>
-
-                        <!--Testi Block-->
-                        <div class="testi-block-two">
-                            <div class="inner-box">
-                                <div class="icon"><img src="{{asset('images/icons/quotes-2.svg')}}" alt=""></div>
-                                <div class="info">
-                                    <span class="name">William Smith</span>
-                                </div>
-                                <div class="text">" Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Occaecat cupidatat non proident,sunt in culpa qui officia deserunt anim id, sint occaecat cupidatat non provident"</div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="pagers-box">
-                    <div class="pager-one clearfix">
-                        <a href="" class="pager-item active" data-slide-index="0"><div class="image"><img src="{{asset('images/resource/rev-thumb-1.png')}}" alt=""></div></a>
-                        <a href="" class="pager-item" data-slide-index="1"><div class="image"><img src="{{asset('images/resource/rev-thumb-2.png')}}" alt=""></div></a>
-                        <a href="" class="pager-item" data-slide-index="2"><div class="image"><img src="{{asset('images/resource/rev-thumb-3.png')}}" alt=""></div></a>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-
-    <!--Sponsors Section-->
-    <section class="sponsors-one style-two">
-        <div class="bg-layer" style="background-image: url(images/background/image-5.png')}});"></div>
-        <div class="auto-container">
-            <div class="carousel-box">
-                <div class="sponsors-carousel owl-theme owl-carousel">
-                    <!--Block-->
-                    <div class="sponsor-block">
-                        <div class="inner-box">
-                            <div class="image"><a href="#"><img src="{{asset('images/resource/sponsor-1.png')}}" alt=""></a></div>
-                        </div>
-                    </div>
-
-                    <!--Block-->
-                    <div class="sponsor-block">
-                        <div class="inner-box">
-                            <div class="image"><a href="#"><img src="{{asset('images/resource/sponsor-2.png')}}" alt=""></a></div>
-                        </div>
-                    </div>
-
-                    <!--Block-->
-                    <div class="sponsor-block">
-                        <div class="inner-box">
-                            <div class="image"><a href="#"><img src="{{asset('images/resource/sponsor-3.png')}}" alt=""></a></div>
-                        </div>
-                    </div>
-
-                    <!--Block-->
-                    <div class="sponsor-block">
-                        <div class="inner-box">
-                            <div class="image"><a href="#"><img src="{{asset('images/resource/sponsor-4.png')}}" alt=""></a></div>
-                        </div>
-                    </div>
-
-                    <!--Block-->
-                    <div class="sponsor-block">
-                        <div class="inner-box">
-                            <div class="image"><a href="#"><img src="{{asset('images/resource/sponsor-1.png')}}" alt=""></a></div>
-                        </div>
-                    </div>
-
-                    <!--Block-->
-                    <div class="sponsor-block">
-                        <div class="inner-box">
-                            <div class="image"><a href="#"><img src="{{asset('images/resource/sponsor-2.png')}}" alt=""></a></div>
-                        </div>
-                    </div>
-
-                    <!--Block-->
-                    <div class="sponsor-block">
-                        <div class="inner-box">
-                            <div class="image"><a href="#"><img src="{{asset('images/resource/sponsor-3.png')}}" alt=""></a></div>
-                        </div>
-                    </div>
-
-                    <!--Block-->
-                    <div class="sponsor-block">
-                        <div class="inner-box">
-                            <div class="image"><a href="#"><img src="{{asset('images/resource/sponsor-4.png')}}" alt=""></a></div>
                         </div>
                     </div>
 
