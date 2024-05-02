@@ -1356,7 +1356,7 @@ form label.error{
   display:block;
   width: 100%;
   height: 20px;
-  background: url(../images/icons/logo-icon.svg) center top no-repeat;
+  background: url(../images/icons/logo-icon-smile.svg) center top no-repeat;
   opacity: 0;
   visibility: hidden;
   -webkit-transition:all 300ms ease;
@@ -2701,7 +2701,8 @@ body.visible-sidebar{
 
 .trek-block-one .lower-content .text{
   position: relative;
-  padding-top: 30px;
+  /* EDIT BOGOR MAIN */
+  /* padding-top: 30px; */
 }
 
 .trek-block-one .bottom-box{
@@ -7644,7 +7645,8 @@ body.visible-sidebar{
 
 .package-detail-section .facility-box .facility-option{
   position:relative;
-  padding-left:30px;
+  /* ubah buat icon destinasi */
+  padding-left:45px;
   font-size:16px;
   color:#505050;
   margin-bottom:35px;

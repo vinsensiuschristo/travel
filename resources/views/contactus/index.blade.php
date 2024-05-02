@@ -12,8 +12,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="{{ asset('css/responsive.css') }}" rel="stylesheet">
-
-<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]--> 
+<!--[if lt IE 9]><script src="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js') }}"></script><![endif]--> 
 
 </head>
 
@@ -40,13 +39,13 @@
                         <div class="nav-outer clearfix">         
                             <nav class="main-menu">
                                 <ul class="navigation clearfix">
-                                    <li class="current"><a href="{{ route('menu.index') }}">Home</a>
+                                    <li><a href="{{ route('menu.index') }}">Home</a>
                                     </li>
                                     <li><a href="{{ route('menu.about-us') }}">About Us</a>
                                     </li>
                                     <li><a href="{{ route('menu.destination') }}">Destinations</a></li>
                                     <li><a href="{{ route('menu.booking') }}">Booking</a></li>
-                                    <li><a href="{{ route('menu.contact-us') }}">Contact</a></li>
+                                    <li class="current"><a href="{{ route('menu.contact-us') }}">Contact</a></li>
                                 </ul>
                             </nav>
                             <!-- Main Menu End-->
@@ -55,7 +54,7 @@
 
                         <!-- Hidden Nav Toggler -->
                         <div class="nav-toggler">
-                            <button title="menu-icon" class="hidden-bar-opener"><span class="icon"><img src="{{asset('images/icons/menu-icon.svg')}}" alt=""></span></button>
+                            <button class="hidden-bar-opener"><span class="icon"><img src="images/icons/menu-icon.svg" alt=""></span></button>
                         </div>
 
                     </div>
@@ -83,18 +82,25 @@
     </header>
     <!--End Main Header -->
 
+    <!--Search Backdrop-->
+    <div class="search-backdrop"></div>
+
+    
+    <!--Menu Backdrop-->
+    <div class="menu-backdrop"></div>
+
     <!-- Hidden Navigation Bar -->
     <section class="hidden-bar">
         <!-- Hidden Bar Wrapper -->
         <div class="hidden-bar-wrapper">
             <div class="hidden-bar-closer"><span class="icon"><svg class="icon-close" role="presentation" viewBox="0 0 16 14"><path d="M15 0L1 14m14 0L1 0" stroke="currentColor" fill="none" fill-rule="evenodd"></path></svg></span></div>
             <div class="nav-logo-box">
-                <div class="logo"><a href="index.html" title="Treker"><img src="{{asset('images/logo.svg')}}" alt="" title="Treker"></a></div>
+                <div class="logo"><a href="index.html" title="Treker"><img src="images/logo.svg" alt="" title="Treker"></a></div>
             </div>
             <!-- .Side-menu -->
             <div class="side-menu">
                  <ul class="navigation clearfix">
-                    <li class="current dropdown"><a href="index.html">Home</a>
+                    <li class="dropdown"><a href="index.html">Home</a>
                         <ul>
                             <li><a href="index.html">Home 01</a></li>
                             <li><a href="index-2.html">Home 02</a></li>
@@ -141,7 +147,7 @@
                             <li><a href="blog-single.html">Blog Details</a></li>
                         </ul>
                     </li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="current"><a href="contact.html">Contact</a></li>
                 </ul>
             </div><!-- /.Side-menu -->
             
@@ -167,12 +173,12 @@
             <div class="prod-box">
                 <div class="prod-block">
                     <div class="prod-inner">
-                        <div class="prod-thumb"><a href="#"><img src="{{asset('images/resource/shop/shop-thumb-1.jpg')}}" alt=""></a></div>
+                        <div class="prod-thumb"><a href="#"><img src="images/resource/shop/shop-thumb-1.jpg" alt=""></a></div>
                         <div class="remove-item"><a href="#"><i class="far fa-times"></i></a></div>
                         <div class="prod-title"><a href="#">Smart Air Bag Travel</a></div>
                         <div class="quantity-box">
                             <div class="item-quantity">
-                                <input title="quantity" class="qty-spinner" type="text" value="1" name="quantity">
+                                <input class="qty-spinner" type="text" value="1" name="quantity">
                             </div>
                         </div>
                         <div class="calculations">1 x <span>$225.00</span></div>
@@ -193,175 +199,85 @@
     </div>
 
     <!-- Banner Section -->
-    <section class="banner-two">
-        
-        <div class="banner-container">
-            <div class="banner-slider-box">
-                <!--Slide Item-->
-                <div class="slide-item">
-                    <div class="floated-icon left"><img src="{{asset('images/main-slider/banner-stones-left.svg')}}" alt="" title=""></div>
-                    <div class="floated-icon right"><img src="{{asset('images/main-slider/banner-stones-right.svg')}}" alt="" title=""></div>
-                    <div class="bg-image-1"><img src="{{asset('images/main-slider/banner-image-4.svg')}}" alt="" title=""></div>
-                    <div class="auto-container">
-                      <div class="content-box">
-                            <div class="bg-image-2"><img src="{{asset('images/main-slider/banner-image-3.svg')}}" alt="" title=""></div>
-                            <div class="content">
-                                <div class="clearfix">
-                                    <div class="inner">
-                                        <h2>Tentukan perjalan</h2>
-                                        <h1><span>Terbaik mu</span></h1>
-                                        <div class="text">Jangan mau terjebak di liburan membosankan yang akan terlupakan dalam seminggu.  Pilih Inovation Tour dan rasakan perbedaannya. Kami adalah agen travel yang akan membuatmu jatuh cinta pada traveling lagi.</div>
-                                        <div class="links-box clearfix">
-                                            <div class="link"><a href="#" class="theme-btn btn-style-two"><span>View All Tours<i class="icon"><img src="{{asset('images/icons/logo-icon.svg')}}" alt="" title=""></i></span></a></div>
-                                            <div class="link"><a href="#" class="theme-btn btn-style-one"><span>Read More<i class="icon far fa-angle-right"></i></span></a></div>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <div class="banner-image">
-                                <div class="image"><img src="{{asset('images/main-slider/banner-image-2.svg')}}" alt="" title=""></div>
-                            </div>
-                        </div>
-                    </div>
+    <section class="inner-banner">
+        <div class="image-layer" style="background-image: url(images/background/banner-image-1.jpg);"></div>
+        <div class="auto-container">
+            <div class="content-box">
+                <h2>Contact</h2>
+                <div class="bread-crumb">
+                    <ul class="clearfix">
+                        <li><span class="icon-home fa fa-home"></span><a href="index.html">Home</a></li>
+                        <li class="current">Contact</li>
+                    </ul>
                 </div>
-
             </div>
         </div>
     </section>
     <!--End Banner Section -->
 
-    <!--Why Section-->
-    <section class="why-two">
+    <!--Contact Section-->
+    <section class="contact-section">
+        <div class="floated-icon right"><img src="images/resource/stones-right-3.svg" alt="" title=""></div>
+        <div class="floated-icon right-2"><img src="images/resource/stones-right-2.svg" alt="" title=""></div>
         <div class="auto-container">
 
-            <div class="title-box centered">
-                {{-- <div class="subtitle">We Are Awesome</div> --}}
-                <h2><i class="bg-vector"></i><span>Kenapa Inovation Tour ?</span></h2>
-            </div>
-
-            <div class="content-box">
-                <div class="row clearfix">
-                    <div class="why-block-two col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="icon-box"><img src="{{asset('images/resource/icon-1.svg')}}" alt=""></div>
-                            <h4>Beragam Lokasi</h4>
-                            <div class="text">Dunia terlalu luas untuk dilewati begitu saja! Ayo gaspol liburan ke tempat idamanmu!</div>
-                        </div>
-                    </div>
-                    <div class="why-block-two col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="icon-box"><img src="{{asset('images/resource/icon-2.svg')}}" alt=""></div>
-                            <h4>Murah di Kantong</h4>
-                            <div class="text">Dompet tipis tapi pengin jalan-jalan? Tenang, kita punya paket liburan nggak bikin kantong jebol!</div>
-                        </div>
-                    </div>
-                    <div class="why-block-two col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="icon-box"><img src="{{asset('images/resource/icon-4.svg')}}" alt=""></div>
-                            <h4>Proses Cepat & Tidak Ribet</h4>
-                            <div class="text">Booking liburan cepet kaya pesan pizza! Cuma klik & bayar, trus packing koper!</div>
-                        </div>
-                    </div>
-                    <div class="why-block-two col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="icon-box"><img src="{{asset('images/resource/icon-3.svg')}}" alt=""></div>
-                            <h4>Tempat yang Indah</h4>
-                            <div class="text">Ingin foto Instagramable yang kece? Kami punya destinasi dengan view yang bikin kamu pangling!
-                            </div>
-                        </div>
-                    </div>
-                    <div class="why-block-two col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="icon-box"><img src="{{asset('images/resource/icon-6.svg')}}" alt=""></div>
-                            <h4>Pengalaman yang Mengesankan</h4>
-                            <div class="text">Liburan ga cuma jalan-jalan, tapi juga pengalaman yang bikin nagih! Yuk, ciptakan momen tak terlupakan bersama kami!</div>
-                        </div>
-                    </div>
-                    <div class="why-block-two col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="icon-box"><img src="{{asset('images/resource/icon-5.svg')}}" alt=""></div>
-                            <h4>Pekerja yang Supportif</h4>
-                            <div class="text">Layanan bintang lima, harga kaki lima! Nikmati pengalaman liburan terbaik bersama tim yang ramah & super helpful!</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--About Us Section-->
-    <section class="about-two">
-        <div class="bg-layer" style="background-image: url(images/background/pattern-1.png')}});"></div>
-        <div class="floated-icon left"><img src="{{asset('images/resource/about-stone-two.svg')}}" alt="" title=""></div>
-        <div class="auto-container">
-            <div class="row clearfix">
-                <!--Text Col-->
-                <div class="text-col col-lg-6 col-md-12 col-sm-12">
-                    <div class="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
-                        <div class="title-box">
-                            <div class="subtitle">Inovation Tour</div>
-                            <h2><i class="bg-vector"></i><span>Be Different, Travel Different</span></h2>
-                            <div class="text">Innovation Tour adalah travel agency baru yang didirikan di tahun 2024 oleh lulusan pariwisata yang penuh semangat. Kami menawarkan liburan unik dan anti-mainstream dengan berbagai aktivitas seru dan pengalaman budaya lokal yang autentik.
-                            </div>
-                        </div>
-                        <div class="lower-box">
-                            <div class="lower-inner clearfix">
-                                <div class="text-content">
-                                    <ul>
-                                        <li>Petualangan dengan berbagai aktivitas seru.</li>
-                                        <li>Bisa pelajari budaya lokal</li>
-                                        <li>Pengalaman Baru</li>
-                                        <li>Cicipi kuliner khas</li>
-                                        <li>Dapatkan Cerita Otentik</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--Image Col-->
-                <div class="image-col col-lg-6 col-md-12 col-sm-12">
-                    <div class="inner wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
-                        <div class="image">
-                            <img src="{{asset('images/resource/main-image.jpg')}}" alt="" title="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Popular Section-->
-    <section class="popular-section style-two">
-        <div class="bg-layer" style="background-image: url(images/background/image-4.jpg')}});"></div>
-        <div class="auto-container">
-            <div class="title-box centered">
-                <h2><i class="bg-vector"></i><span>Destinasi Kami</span></h2>
-            </div>
-            <div class="carousel-box">
-                <div class="popular-carousel owl-theme owl-carousel">
+            <div class="info-section">
+                <div class="d-flex justify-content-center">
                     <!--Block-->
-                    <div class="trek-block-one">
+                    <div class="info-block col-lg-4 col-md-12 col-sm-12">
                         <div class="inner-box">
-                            <div class="image-box">
-                                <div class="image"><a href="{{ route('bogor-walking-tour') }}"><img src="{{asset('images/resource/bogor-copy.jpg')}}" alt="" title=""></a></div>
-                                <div class="price"><span>IDR 120.000</span></div>
-                                <div class="info">
-                                    <span class="i-block"><i class="icon far fa-clock"></i> 3 Jam</span> &ensp; | &ensp; <span class="i-block">Bogor Kota</span>
-                                </div>
-                            </div>
-                            <div class="lower-content">
-                                <h4><a href="{{ route('bogor-walking-tour') }}">Bogor History Walking Tour</a></h4>
-                                <div class="text">Yuk, rasakan petualangan baru di Bogor bersama Innovation Tour! Gabung Tour Sejarah & Alam Bogor dan bersiaplah untuk menjelajahi jejak masa lalu yang memukau dan merasakan sejuknya Kota Bogor.</div>
-                            </div>
-                            <div class="bottom-box clearfix">
-                                <div class="more-link"><a href="{{ route('bogor-walking-tour') }}" class="theme-btn"><span>Details <i class="icon"><img src="{{asset('images/icons/logo-icon.svg')}}" alt=""></i></span></a></div>
-                            </div>
+                            <div class="map-icon"><img src="images/resource/asia-map.svg" alt="" title=""></div>
+                            <h5>Indonesia</h5>
+                            <div class="address text">Puri hesti insani <br>Cilengsi</div>
+                            <div class="phone"><a aria-label="Chat on WhatsApp" href="https://wa.me/+6282213909746?text=INI%PESAN%DARI%INOVATION%TOUR" target="_blank" rel="noopener noreferrer"><img alt="Chat on WhatsApp" src="{{ asset('images/resource/ChatOnWhatsAppButton/WhiteTheme/WhatsAppButtonWhiteMedium.svg') }}" />
+                                <a /></a></div>
                         </div>
                     </div>
-
-
+                </div>
+            </div>
+            <div class="title-box centered">
+                <h2><span>Ada Masalah ?</span></h2>
+                <div class="text">Duh, ada kendala nih saat booking atau ada pertanyaan lain yang bikin bingung? Jangan panik! Tim Inovation Tour siap membantu kamu dengan senang hati!</div>
+            </div>
+            <div class="form-box site-form">
+                <div class="contact-form mb-5">
+                    <form method="post" action="contact.html">
+                        <div class="row clearfix">
+                            <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                <div class="f-label">Nama <i>*</i></div>
+                                <div class="field-inner">
+                                    <input type="text" name="fieldname" value="" placeholder="" required>
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                <div class="f-label">Email <i>*</i></div>
+                                <div class="field-inner">
+                                    <input type="email" name="fieldname" value="" placeholder="" required>
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                <div class="f-label">Nomor Telepon <i>*</i></div>
+                                <div class="field-inner">
+                                    <input type="text" name="fieldname" value="" placeholder="" required>
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                <div class="f-label">Subject <i>*</i></div>
+                                <div class="field-inner">
+                                    <input type="text" name="fieldname" value="" placeholder="Contoh : Transportasi / Makanan" required>
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                <div class="f-label">Pertanyaan</div>
+                                <div class="field-inner">
+                                    <textarea name="fieldname" placeholder=""></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                <button type="submit" class="theme-btn btn-style-two"><span>Submit Now<i class="icon far fa-angle-right"></i></span></button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -369,7 +285,7 @@
 
     <!--Main Footer-->
     <footer class="footer-two">
-        <div class="bg-layer" style="background-image: url(images/background/footer-bg.png')}});"></div>
+        <div class="bg-layer" style="background-image: url(images/background/footer-bg.png);"></div>
         <div class="upper-section">
             <div class="auto-container">
 
@@ -378,7 +294,7 @@
                     <div class="footer-column col-xl-4 col-lg-12 col-md-12 col-sm-12">
                         <!--Logo-->
                         <div class="footer-logo">
-                            <div class="logo"><a href="index.html" title="Treker"><img src="{{asset('images/logo.svg')}}" alt="" title="Treker"></a></div>
+                            <div class="logo"><a href="index.html" title="Treker"><img src="images/logo.svg" alt="" title="Treker"></a></div>
                         </div>
                         <div class="footer-text">Treker was founded in 1991 by a group of safety-focused professionals who created The Wingman Standard for rigorously vetting air charter operators.</div>
                         <div class="social-links">
@@ -449,17 +365,17 @@
 <!--End pagewrapper--> 
 
 <!--Scroll to top-->
-<div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon"><img src="{{asset('images/icons/arrow-up.svg')}}" alt="" title="Go To Top"></span></div>
-{{-- href="{{ asset('css/bootstrap.css') }}" --}}
-<script src="{{asset('js/jquery.js') }}"></script>
-<script src="{{asset('js/popper.min.js') }}"></script>
-<script src="{{asset('js/bootstrap.min.js') }}"></script>
-<script src="{{asset('js/jquery-ui.js') }}"></script>
-<script src="{{asset('js/jquery.fancybox.js') }}"></script>
-<script src="{{asset('js/bxslider.js') }}"></script>
-<script src="{{asset('js/touchspin.js') }}"></script>
-<script src="{{asset('js/owl.js') }}"></script>
-<script src="{{asset('js/wow.js') }}"></script>
-<script src="{{asset('js/custom-script.js') }}"></script>
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon"><img src="images/icons/arrow-up.svg" alt="" title="Go To Top"></span></div>
+
+<script src="{{ asset('js/jquery.js') }}"></script>
+<script src="{{ asset('js/popper.min.js') }}"></script>
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('js/jquery-ui.js') }}"></script>
+<script src="{{ asset('js/jquery.fancybox.js') }}"></script>
+<script src="{{ asset('js/mixitup.js') }}"></script>
+<script src="{{ asset('js/touchspin.js') }}"></script>
+<script src="{{ asset('js/owl.js') }}"></script>
+<script src="{{ asset('js/wow.js') }}"></script>
+<script src="{{ asset('js/custom-script.js') }}"></script>
 </body>
 </html>
