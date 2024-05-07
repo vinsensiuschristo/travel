@@ -6,8 +6,8 @@
 <!-- Stylesheets -->
 <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
 <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-<link rel="shortcut icon" href="{{ asset('images/favicon.png')}}" type="image/x-icon">
-<link rel="icon" href="{{ asset('images/favicon.png')}}" type="image/x-icon">
+<link rel="shortcut icon" href="{{ asset('images/new-icon.png')}}" type="image/x-icon">
+<link rel="icon" href="{{ asset('images/new-icon.png')}}" type="image/x-icon">
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,7 +32,7 @@
                 <div class="main-box clearfix">
                     <!--Logo-->
                     <div class="logo-box">
-                        <div class="logo"><a href="{{ route('menu.index') }}" title="Inovation Travel"><img src="{{ asset('images/InovationTour.png') }}" alt="" title="Inovation Travel"></a></div>
+                        <div class="logo"><a href="{{ route('menu.index') }}" title="Inovation Travel"><img src="{{ asset('images/new-icon.png') }}" alt="" title="Inovation Travel"></a></div>
                     </div>
 
                     <div class="nav-box clearfix">
@@ -201,7 +201,7 @@
 
     <!-- Banner Section -->
     <section class="inner-banner">
-        <div class="image-layer" style="background-image: url(images/background/banner-image-1.jpg);"></div>
+        <div class="image-layer" style="background-image: url(images/background/banner-destination.png);"></div>
         <div class="auto-container">
             <div class="content-box">
                 <h2>Destinations tours</h2>
@@ -454,13 +454,11 @@
                         <div class="footer-logo">
                             <div class="logo"><a href="index.html" title="Treker"><img src="images/logo.svg" alt="" title="Treker"></a></div>
                         </div>
-                        <div class="footer-text">Treker was founded in 1991 by a group of safety-focused professionals who created The Wingman Standard for rigorously vetting air charter operators.</div>
+                        <div class="footer-text">Inovation Tour didirikan pada tahun 2024 oleh para pecinta traveling. Kami ingin Anda merasakan petualangan yang tak terlupakan dengan berbagai pilihan wisata yang unik dan seru</div>
                         <div class="social-links">
                             <ul class="clearfix">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.instagram.com/inovationtour.official/"><i class="fab fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -469,38 +467,37 @@
                         <div class="row clearfix">
 
                             <div class="footer-column col-lg-3 col-md-4 col-sm-12">
-                                <h6>Exlopre Treker</h6>
-                                <div class="links">
-                                    <ul>
-                                        <li><a href="#">Account</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Affilitate</a></li><li><a href="#">Program</a></li>
-                                        <li><a href="#">Our Partner</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="footer-column col-lg-3 col-md-4 col-sm-12">
                                 <h6>Quick lInks</h6>
                                 <div class="links">
                                     <ul>
-                                        <li><a href="#">About us</a></li>
-                                        <li><a href="#">News & press</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">FAQs</a></li>
-                                        <li><a href="#">Careers</a></li>
+                                        <li><a href="{{ route('menu.index') }}">Home</a></li>
+                                        <li><a href="{{ route('menu.about-us') }}">About Us</a></li>
+                                        <li><a href="{{ route('menu.destination') }}">Destination</a></li>
+                                        <li><a href="{{ route('menu.booking') }}">Booking</a></li>
+                                        <li><a href="{{ route('menu.contact-us') }}">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
 
-                            <div class="info-block col-lg-6 col-md-4 col-sm-12">
+                            <div class="info-block col-lg-9 col-md-4 col-sm-12">
                                 <h6>Address</h6>
                                 <div class="info">
-                                    <ul>
-                                        <li>Europe 45 Gloucester Road London DT1M 3BF <a href="tel:+44(0)2036715709">+44 (0)20 3671 5709</a></li>
-                                        <li>Europe 45 Gloucester Road London DT1M 3BF <a href="tel:+44(0)2036715709">+44 (0)20 3671 5709</a></li>
+                                    <ul class="clearfix">
+                                        <li>Perumahan Puri Hesti Insani Jl. Puri Hesti Insani No.Perumahan Blok B6, RT.17/RW.15, Mampir, Kec. Cileungsi, Kabupaten Bogor, Jawa Barat 16820</li>
                                     </ul>
                                 </div>
+
+                                    <div class="social-links">
+                                        <ul class="clearfix">
+                                            <li>
+                                                <a href="https://wa.me/+6282213909746?text=INI%PESAN%DARI%INOVATION%TOUR" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="https://wa.me/+6282213909746?text=INI%PESAN%DARI%INOVATION%TOUR" target="_blank" rel="noopener noreferrer"><i class="fas fa-phone"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                
                             </div>
 
                         </div>
