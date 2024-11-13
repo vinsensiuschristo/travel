@@ -234,6 +234,7 @@ p{
   -webkit-filter: brightness(10);
   -ms-filter: brightness(10);
   -moz-filter: brightness(10);
+  filter: brightness(10);
 }
 
 .btn-style-two{
@@ -298,12 +299,14 @@ p{
   -webkit-filter: brightness(10);
   -ms-filter: brightness(10);
   -moz-filter: brightness(10);
+  filter: brightness(10);
 }
 
 .btn-style-two:hover i img{
   -webkit-filter: none;
   -ms-filter: none;
   -moz-filter: none;
+  filter: none;
 }
 
 
@@ -2742,12 +2745,14 @@ body.visible-sidebar{
   -webkit-filter: brightness(0);
   -ms-filter: brightness(0);
   -moz-filter: brightness(0);
+  filter: brightness(0);
 }
 
 .trek-block-one .bottom-box .more-link a:hover i img{
   -webkit-filter: none;
   -ms-filter: none;
   -moz-filter: none;
+  filter: none;
 }
 
 .trek-block-one .bottom-box .more-link a:hover{
@@ -6238,6 +6243,7 @@ body.visible-sidebar{
 
 .team-block-one .inner-box:hover .image img{
   -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
   transform:scale(1.05,1.05);
 }
 
@@ -6820,12 +6826,14 @@ body.visible-sidebar{
   -webkit-filter: brightness(0);
   -ms-filter: brightness(0);
   -moz-filter: brightness(0);
+  filter: brightness(0);
 }
 
 .activity-block-one .bottom-box .more-link a:hover i img{
   -webkit-filter: none;
   -ms-filter: none;
   -moz-filter: none;
+  filter: none;
 }
 
 .activity-block-one .bottom-box .more-link a:hover{
@@ -10010,6 +10018,7 @@ body.visible-sidebar{
   -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .gallery-block .inner-box:hover .zoom-btn{
@@ -10675,12 +10684,14 @@ body.visible-sidebar{
   -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .find-us .map-col .map .loc-point:hover .loc-icon img{
   -webkit-filter: grayscale(0%);
   -ms-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 .find-us .map-col .map .loc-point .loc-popup{
@@ -10859,6 +10870,7 @@ body.visible-sidebar{
 
 .product-details .basic-details .carousel-box .pagers-box .pager-item.active img{
   -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .product-details .content-column{
