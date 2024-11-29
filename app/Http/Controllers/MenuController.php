@@ -15,15 +15,24 @@ class MenuController extends Controller
         return view('aboutus.index');
     }
 
+    function carRental()
+    {
+        return view('carrental.index');
+    }
 
     function contactUs()
     {
         return view('contactus.index');
     }
 
-    function destination()
+    function localDestination()
     {
-        return view('destination.index');
+        return view('localdestination.index');
+    }
+
+    function interDestination()
+    {
+        return view('interdestination.index');
     }
 
     function booking()
