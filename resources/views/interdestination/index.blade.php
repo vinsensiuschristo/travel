@@ -185,200 +185,217 @@
                 <h2><span>Paket Destinasi</span></h2>
                 <div class="text">Since 2014, we’ve helped more than 500,000 people of all ages enjoy the best outdoor experience of their lives. Whether it’s for one day or a two-week vacation, close to home or a foreign land.</div>
             </div>
-            <div class="content-box">
-                <div class="row clearfix">
-                    <!--Beautifull New Korea-->
-                    <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <div class="image"><a href="#"><img src="{{asset('images/inter-destination/beautifull-new-korea.jpeg')}}" alt="" title=""></a></div>
-                            </div>
-                            <div class="lower-content">
-                                <div class="price"><span>IDR 12.900.000</span></div>
-                                <h4><a href="#">Korea </a></h4>
-                                <div class="ratings clearfix">
-                                    <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                    <div class="rev"><a href="#">05 Review</a></div>
+
+            <!--Filter-->
+            <div class="mixitup-gallery">
+                <div class="gallery-filters centered clearfix">
+                    <ul class="filter-tabs filter-btns clearfix">
+                        <li class="active filter" data-filter="all">All</li>
+                        <li class="filter" data-filter=".korea">Korea</li>
+                        <li class="filter" data-filter=".china">China</li>
+                        <li class="filter" data-filter=".japan">Japan</li>
+                        <li class="filter" data-filter=".india">India</li>
+                        <li class="filter" data-filter=".vietnam">Vietnam</li>
+                        <li class="filter" data-filter=".philiphine">Philipine</li>
+                    </ul>
+                </div>
+    
+
+                <div class="content-box">
+                    <div class="row clearfix filter-list">
+                        <!--Beautifull New Korea-->
+                        <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12 mix all korea">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <div class="image"><a href="#"><img src="{{asset('images/inter-destination/beautifull-new-korea.jpeg')}}" alt="" title=""></a></div>
                                 </div>
-                                <div class="text">Nami Island, Mountain Sorak, Seoul.</div>
-                                <div class="bottom-box clearfix">
-                                    <div class="info">
-                                        <span class="i-block"><i class="icon far fa-clock"></i> 6 days</span>
+                                <div class="lower-content">
+                                    <div class="price"><span>IDR 12.900.000</span></div>
+                                    <h4><a href="#">Korea </a></h4>
+                                    <div class="ratings clearfix">
+                                        <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
+                                        <div class="rev"><a href="#">05 Review</a></div>
+                                    </div>
+                                    <div class="text">Nami Island, Mountain Sorak, Seoul.</div>
+                                    <div class="bottom-box clearfix">
+                                        <div class="info">
+                                            <span class="i-block"><i class="icon far fa-clock"></i> 6 days</span>
+                                        </div>
                                     </div>
                                 </div>
+                                
                             </div>
-                            
                         </div>
-                    </div>
 
-                    <!--China Beijing Shanghai-->
-                    <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <div class="image"><a href="#"><img src="{{asset('images/inter-destination/china-beijing-shanghai.jpeg')}}" alt="" title=""></a></div>
-                            </div>
-                            <div class="lower-content">
-                                <div class="price"><span>IDR 12.990.000</span></div>
-                                <h4><a href="#">Shanghai </a></h4>
-                                <div class="ratings clearfix">
-                                    <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                    <div class="rev"><a href="#">05 Review</a></div>
+                        <!--China Beijing Shanghai-->
+                        <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12 mix all china">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <div class="image"><a href="#"><img src="{{asset('images/inter-destination/china-beijing-shanghai.jpeg')}}" alt="" title=""></a></div>
                                 </div>
-                                <div class="text">Beijing, Shuzou, Hangzhou, Shanghai.</div>
-                                <div class="bottom-box clearfix">
-                                    <div class="info">
-                                        <span class="i-block"><i class="icon far fa-clock"></i> 8 days</span>
+                                <div class="lower-content">
+                                    <div class="price"><span>IDR 12.990.000</span></div>
+                                    <h4><a href="#">Shanghai </a></h4>
+                                    <div class="ratings clearfix">
+                                        <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
+                                        <div class="rev"><a href="#">05 Review</a></div>
+                                    </div>
+                                    <div class="text">Beijing, Shuzou, Hangzhou, Shanghai.</div>
+                                    <div class="bottom-box clearfix">
+                                        <div class="info">
+                                            <span class="i-block"><i class="icon far fa-clock"></i> 8 days</span>
+                                        </div>
                                     </div>
                                 </div>
+                                
                             </div>
-                            
                         </div>
-                    </div>
 
-                    <!--golden-reoute-japan-shirakawago-->
-                    <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <div class="image"><a href="#"><img src="{{asset('images/inter-destination/golden-reoute-japan-shirakawago.jpeg')}}" alt="" title=""></a></div>
-                            </div>
-                            <div class="lower-content">
-                                <div class="price"><span>IDR 18.990.000</span></div>
-                                <h4><a href="#">Japan </a></h4>
-                                <div class="ratings clearfix">
-                                    <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                    <div class="rev"><a href="#">05 Review</a></div>
+                        <!--golden-reoute-japan-shirakawago-->
+                        <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12 mix all japan">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <div class="image"><a href="#"><img src="{{asset('images/inter-destination/golden-reoute-japan-shirakawago.jpeg')}}" alt="" title=""></a></div>
                                 </div>
-                                <div class="text">Osaka, Kyoto, Gifo, Shirakawago, MT. Fuji, Tokyo.</div>
-                                <div class="bottom-box clearfix">
-                                    <div class="info">
-                                        <span class="i-block"><i class="icon far fa-clock"></i> 7 days</span>
+                                <div class="lower-content">
+                                    <div class="price"><span>IDR 18.990.000</span></div>
+                                    <h4><a href="#">Japan </a></h4>
+                                    <div class="ratings clearfix">
+                                        <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
+                                        <div class="rev"><a href="#">05 Review</a></div>
+                                    </div>
+                                    <div class="text">Osaka, Kyoto, Gifo, Shirakawago, MT. Fuji, Tokyo.</div>
+                                    <div class="bottom-box clearfix">
+                                        <div class="info">
+                                            <span class="i-block"><i class="icon far fa-clock"></i> 7 days</span>
+                                        </div>
                                     </div>
                                 </div>
+                                
                             </div>
-                            
                         </div>
-                    </div>
 
-                    <!--Hanoi sapa fansipan halong-->
-                    <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <div class="image"><a href="#"><img src="{{asset('images/inter-destination/hanoi-sapa-fansipan-halong.jpeg')}}" alt="" title=""></a></div>
-                            </div>
-                            <div class="lower-content">
-                                <div class="price"><span>IDR 12.990.000</span></div>
-                                <h4><a href="#">Filiphina </a></h4>
-                                <div class="ratings clearfix">
-                                    <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                    <div class="rev"><a href="#">05 Review</a></div>
+                        <!--Hanoi sapa fansipan halong-->
+                        <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12 mix all philiphine">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <div class="image"><a href="#"><img src="{{asset('images/inter-destination/hanoi-sapa-fansipan-halong.jpeg')}}" alt="" title=""></a></div>
                                 </div>
-                                <div class="text">Hanoi, Sapa, Fansipan, Halong Bay.</div>
-                                <div class="bottom-box clearfix">
-                                    <div class="info">
-                                        <span class="i-block"><i class="icon far fa-clock"></i> 6 days</span>
+                                <div class="lower-content">
+                                    <div class="price"><span>IDR 12.990.000</span></div>
+                                    <h4><a href="#">Philipine </a></h4>
+                                    <div class="ratings clearfix">
+                                        <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
+                                        <div class="rev"><a href="#">05 Review</a></div>
+                                    </div>
+                                    <div class="text">Hanoi, Sapa, Fansipan, Halong Bay.</div>
+                                    <div class="bottom-box clearfix">
+                                        <div class="info">
+                                            <span class="i-block"><i class="icon far fa-clock"></i> 6 days</span>
+                                        </div>
                                     </div>
                                 </div>
+                                
                             </div>
-                            
                         </div>
-                    </div>
 
-                    <!--Block-->
-                    <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <div class="image"><a href="#"><img src="{{asset('images/inter-destination/india-6d.jpeg')}}" alt="" title=""></a></div>
-                            </div>
-                            <div class="lower-content">
-                                <div class="price"><span>IDR 12.990.000</span></div>
-                                <h4><a href="#">India </a></h4>
-                                <div class="ratings clearfix">
-                                    <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                    <div class="rev"><a href="#">05 Review</a></div>
+                        <!--Block-->
+                        <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12 mix all india">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <div class="image"><a href="#"><img src="{{asset('images/inter-destination/india-6d.jpeg')}}" alt="" title=""></a></div>
                                 </div>
-                                <div class="text">Delhi, Gumala, Agra, Jaipur, Delpi.</div>
-                                <div class="bottom-box clearfix">
-                                    <div class="info">
-                                        <span class="i-block"><i class="icon far fa-clock"></i> 6 days</span>
+                                <div class="lower-content">
+                                    <div class="price"><span>IDR 12.990.000</span></div>
+                                    <h4><a href="#">India </a></h4>
+                                    <div class="ratings clearfix">
+                                        <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
+                                        <div class="rev"><a href="#">05 Review</a></div>
+                                    </div>
+                                    <div class="text">Delhi, Gumala, Agra, Jaipur, Delpi.</div>
+                                    <div class="bottom-box clearfix">
+                                        <div class="info">
+                                            <span class="i-block"><i class="icon far fa-clock"></i> 6 days</span>
+                                        </div>
                                     </div>
                                 </div>
+                                
                             </div>
-                            
                         </div>
-                    </div>
 
-                    <!--Block-->
-                    <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <div class="image"><a href="#"><img src="{{asset('images/inter-destination/korea-6d.jpeg')}}" alt="" title=""></a></div>
-                            </div>
-                            <div class="lower-content">
-                                <div class="price"><span>IDR 11.290.000</span></div>
-                                <h4><a href="#">Korea </a></h4>
-                                <div class="ratings clearfix">
-                                    <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                    <div class="rev"><a href="#">05 Review</a></div>
+                        <!--Block-->
+                        <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12 mix all korea">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <div class="image"><a href="#"><img src="{{asset('images/inter-destination/korea-6d.jpeg')}}" alt="" title=""></a></div>
                                 </div>
-                                <div class="text">Nami Island, Seoul.</div>
-                                <div class="bottom-box clearfix">
-                                    <div class="info">
-                                        <span class="i-block"><i class="icon far fa-clock"></i> 6 days</span>
+                                <div class="lower-content">
+                                    <div class="price"><span>IDR 11.290.000</span></div>
+                                    <h4><a href="#">Korea </a></h4>
+                                    <div class="ratings clearfix">
+                                        <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
+                                        <div class="rev"><a href="#">05 Review</a></div>
+                                    </div>
+                                    <div class="text">Nami Island, Seoul.</div>
+                                    <div class="bottom-box clearfix">
+                                        <div class="info">
+                                            <span class="i-block"><i class="icon far fa-clock"></i> 6 days</span>
+                                        </div>
                                     </div>
                                 </div>
+                                
                             </div>
-                            
                         </div>
-                    </div>
 
-                    <!--Vietnam-->
-                    <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <div class="image"><a href="#"><img src="{{asset('images/inter-destination/vietnam-9d.jpeg')}}" alt="" title=""></a></div>
-                            </div>
-                            <div class="lower-content">
-                                <div class="price"><span>IDR 19.990.000</span></div>
-                                <h4><a href="#">Vietnam </a></h4>
-                                <div class="ratings clearfix">
-                                    <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                    <div class="rev"><a href="#">05 Review</a></div>
+                        <!--Vietnam-->
+                        <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12 mix all vietnam">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <div class="image"><a href="#"><img src="{{asset('images/inter-destination/vietnam-9d.jpeg')}}" alt="" title=""></a></div>
                                 </div>
-                                <div class="text">Hanoi, Sapa, Halong Bay, Danang, Ho Chi Mihn.</div>
-                                <div class="bottom-box clearfix">
-                                    <div class="info">
-                                        <span class="i-block"><i class="icon far fa-clock"></i> 9 days</span>
+                                <div class="lower-content">
+                                    <div class="price"><span>IDR 19.990.000</span></div>
+                                    <h4><a href="#">Vietnam </a></h4>
+                                    <div class="ratings clearfix">
+                                        <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
+                                        <div class="rev"><a href="#">05 Review</a></div>
+                                    </div>
+                                    <div class="text">Hanoi, Sapa, Halong Bay, Danang, Ho Chi Mihn.</div>
+                                    <div class="bottom-box clearfix">
+                                        <div class="info">
+                                            <span class="i-block"><i class="icon far fa-clock"></i> 9 days</span>
+                                        </div>
                                     </div>
                                 </div>
+                                
                             </div>
-                            
                         </div>
-                    </div>
 
-                    <!--wonderfull vietnam-->
-                    <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <div class="image"><a href="#"><img src="{{asset('images/inter-destination/wondefull-vietnam.jpeg')}}" alt="" title=""></a></div>
-                            </div>
-                            <div class="lower-content">
-                                <div class="price"><span>IDR 9.990.000</span></div>
-                                <h4><a href="#">Vietnam </a></h4>
-                                <div class="ratings clearfix">
-                                    <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                    <div class="rev"><a href="#">05 Review</a></div>
+                        <!--wonderfull vietnam-->
+                        <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12 mix all vietnam">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <div class="image"><a href="#"><img src="{{asset('images/inter-destination/wondefull-vietnam.jpeg')}}" alt="" title=""></a></div>
                                 </div>
-                                <div class="text">Hanoi, Sapa, Halong.</div>
-                                <div class="bottom-box clearfix">
-                                    <div class="info">
-                                        <span class="i-block"><i class="icon far fa-clock"></i> 5 days</span>
+                                <div class="lower-content">
+                                    <div class="price"><span>IDR 9.990.000</span></div>
+                                    <h4><a href="#">Vietnam </a></h4>
+                                    <div class="ratings clearfix">
+                                        <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
+                                        <div class="rev"><a href="#">05 Review</a></div>
+                                    </div>
+                                    <div class="text">Hanoi, Sapa, Halong.</div>
+                                    <div class="bottom-box clearfix">
+                                        <div class="info">
+                                            <span class="i-block"><i class="icon far fa-clock"></i> 5 days</span>
+                                        </div>
                                     </div>
                                 </div>
+                                
                             </div>
-                            
                         </div>
-                    </div>
 
+                    </div>
                 </div>
             </div>
         </div>
