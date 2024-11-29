@@ -161,7 +161,7 @@
 
     <!-- Banner Section -->
     <section class="inner-banner">
-        <div class="image-layer" style="background-image: url(images/background/banner-destination.png);"></div>
+        <div class="image-layer" style="background-image: url(images/background/inter-banner.png);"></div>
         <div class="auto-container">
             <div class="content-box">
                 <h2>Destinations tours</h2>
@@ -187,23 +187,95 @@
             </div>
             <div class="content-box">
                 <div class="row clearfix">
-                    <!--Block-->
+                    <!--Beautifull New Korea-->
                     <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <div class="image"><a href="#"><img src="images/resource/tour-1.jpg" alt="" title=""></a></div>
+                                <div class="image"><a href="#"><img src="{{asset('images/inter-destination/beautifull-new-korea.jpeg')}}" alt="" title=""></a></div>
                             </div>
                             <div class="lower-content">
-                                <div class="price"><span>IDR 1.200.000</span></div>
-                                <h4><a href="#">Jakarta </a></h4>
+                                <div class="price"><span>IDR 12.900.000</span></div>
+                                <h4><a href="#">Korea </a></h4>
                                 <div class="ratings clearfix">
                                     <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
                                     <div class="rev"><a href="#">05 Review</a></div>
                                 </div>
-                                <div class="text">Asix, Nyaman, Macet.</div>
+                                <div class="text">Nami Island, Mountain Sorak, Seoul.</div>
                                 <div class="bottom-box clearfix">
                                     <div class="info">
-                                        <span class="i-block"><i class="icon far fa-clock"></i> 5 days</span>
+                                        <span class="i-block"><i class="icon far fa-clock"></i> 6 days</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!--China Beijing Shanghai-->
+                    <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <div class="image"><a href="#"><img src="{{asset('images/inter-destination/china-beijing-shanghai.jpeg')}}" alt="" title=""></a></div>
+                            </div>
+                            <div class="lower-content">
+                                <div class="price"><span>IDR 12.990.000</span></div>
+                                <h4><a href="#">Shanghai </a></h4>
+                                <div class="ratings clearfix">
+                                    <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
+                                    <div class="rev"><a href="#">05 Review</a></div>
+                                </div>
+                                <div class="text">Beijing, Shuzou, Hangzhou, Shanghai.</div>
+                                <div class="bottom-box clearfix">
+                                    <div class="info">
+                                        <span class="i-block"><i class="icon far fa-clock"></i> 8 days</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!--golden-reoute-japan-shirakawago-->
+                    <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <div class="image"><a href="#"><img src="{{asset('images/inter-destination/golden-reoute-japan-shirakawago.jpeg')}}" alt="" title=""></a></div>
+                            </div>
+                            <div class="lower-content">
+                                <div class="price"><span>IDR 18.990.000</span></div>
+                                <h4><a href="#">Japan </a></h4>
+                                <div class="ratings clearfix">
+                                    <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
+                                    <div class="rev"><a href="#">05 Review</a></div>
+                                </div>
+                                <div class="text">Osaka, Kyoto, Gifo, Shirakawago, MT. Fuji, Tokyo.</div>
+                                <div class="bottom-box clearfix">
+                                    <div class="info">
+                                        <span class="i-block"><i class="icon far fa-clock"></i> 7 days</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!--Hanoi sapa fansipan halong-->
+                    <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <div class="image"><a href="#"><img src="{{asset('images/inter-destination/hanoi-sapa-fansipan-halong.jpeg')}}" alt="" title=""></a></div>
+                            </div>
+                            <div class="lower-content">
+                                <div class="price"><span>IDR 12.990.000</span></div>
+                                <h4><a href="#">Filiphina </a></h4>
+                                <div class="ratings clearfix">
+                                    <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
+                                    <div class="rev"><a href="#">05 Review</a></div>
+                                </div>
+                                <div class="text">Hanoi, Sapa, Fansipan, Halong Bay.</div>
+                                <div class="bottom-box clearfix">
+                                    <div class="info">
+                                        <span class="i-block"><i class="icon far fa-clock"></i> 6 days</span>
                                     </div>
                                 </div>
                             </div>
@@ -215,19 +287,19 @@
                     <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <div class="image"><a href="#"><img src="images/resource/tour-1.jpg" alt="" title=""></a></div>
+                                <div class="image"><a href="#"><img src="{{asset('images/inter-destination/india-6d.jpeg')}}" alt="" title=""></a></div>
                             </div>
                             <div class="lower-content">
-                                <div class="price"><span>IDR 1.200.000</span></div>
-                                <h4><a href="#">Jakarta </a></h4>
+                                <div class="price"><span>IDR 12.990.000</span></div>
+                                <h4><a href="#">India </a></h4>
                                 <div class="ratings clearfix">
                                     <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
                                     <div class="rev"><a href="#">05 Review</a></div>
                                 </div>
-                                <div class="text">Asix, Nyaman, Macet.</div>
+                                <div class="text">Delhi, Gumala, Agra, Jaipur, Delpi.</div>
                                 <div class="bottom-box clearfix">
                                     <div class="info">
-                                        <span class="i-block"><i class="icon far fa-clock"></i> 5 days</span>
+                                        <span class="i-block"><i class="icon far fa-clock"></i> 6 days</span>
                                     </div>
                                 </div>
                             </div>
@@ -239,19 +311,19 @@
                     <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <div class="image"><a href="#"><img src="images/resource/tour-1.jpg" alt="" title=""></a></div>
+                                <div class="image"><a href="#"><img src="{{asset('images/inter-destination/korea-6d.jpeg')}}" alt="" title=""></a></div>
                             </div>
                             <div class="lower-content">
-                                <div class="price"><span>IDR 1.200.000</span></div>
-                                <h4><a href="#">Jakarta </a></h4>
+                                <div class="price"><span>IDR 11.290.000</span></div>
+                                <h4><a href="#">Korea </a></h4>
                                 <div class="ratings clearfix">
                                     <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
                                     <div class="rev"><a href="#">05 Review</a></div>
                                 </div>
-                                <div class="text">Asix, Nyaman, Macet.</div>
+                                <div class="text">Nami Island, Seoul.</div>
                                 <div class="bottom-box clearfix">
                                     <div class="info">
-                                        <span class="i-block"><i class="icon far fa-clock"></i> 5 days</span>
+                                        <span class="i-block"><i class="icon far fa-clock"></i> 6 days</span>
                                     </div>
                                 </div>
                             </div>
@@ -259,23 +331,23 @@
                         </div>
                     </div>
 
-                    <!--Block-->
+                    <!--Vietnam-->
                     <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <div class="image"><a href="#"><img src="images/resource/tour-1.jpg" alt="" title=""></a></div>
+                                <div class="image"><a href="#"><img src="{{asset('images/inter-destination/vietnam-9d.jpeg')}}" alt="" title=""></a></div>
                             </div>
                             <div class="lower-content">
-                                <div class="price"><span>IDR 1.200.000</span></div>
-                                <h4><a href="#">Jayapura </a></h4>
+                                <div class="price"><span>IDR 19.990.000</span></div>
+                                <h4><a href="#">Vietnam </a></h4>
                                 <div class="ratings clearfix">
                                     <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
                                     <div class="rev"><a href="#">05 Review</a></div>
                                 </div>
-                                <div class="text">Asix, Nyaman, Macet.</div>
+                                <div class="text">Hanoi, Sapa, Halong Bay, Danang, Ho Chi Mihn.</div>
                                 <div class="bottom-box clearfix">
                                     <div class="info">
-                                        <span class="i-block"><i class="icon far fa-clock"></i> 5 days</span>
+                                        <span class="i-block"><i class="icon far fa-clock"></i> 9 days</span>
                                     </div>
                                 </div>
                             </div>
@@ -283,44 +355,20 @@
                         </div>
                     </div>
 
-                    <!--Block-->
+                    <!--wonderfull vietnam-->
                     <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <div class="image"><a href="#"><img src="images/resource/tour-1.jpg" alt="" title=""></a></div>
+                                <div class="image"><a href="#"><img src="{{asset('images/inter-destination/wondefull-vietnam.jpeg')}}" alt="" title=""></a></div>
                             </div>
                             <div class="lower-content">
-                                <div class="price"><span>IDR 1.200.000</span></div>
-                                <h4><a href="#">Ambon </a></h4>
+                                <div class="price"><span>IDR 9.990.000</span></div>
+                                <h4><a href="#">Vietnam </a></h4>
                                 <div class="ratings clearfix">
                                     <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
                                     <div class="rev"><a href="#">05 Review</a></div>
                                 </div>
-                                <div class="text">Asix, Nyaman, Macet.</div>
-                                <div class="bottom-box clearfix">
-                                    <div class="info">
-                                        <span class="i-block"><i class="icon far fa-clock"></i> 5 days</span>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-
-                    <!--Block-->
-                    <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <div class="image"><a href="#"><img src="images/resource/tour-1.jpg" alt="" title=""></a></div>
-                            </div>
-                            <div class="lower-content">
-                                <div class="price"><span>IDR 1.200.000</span></div>
-                                <h4><a href="#">Bandung </a></h4>
-                                <div class="ratings clearfix">
-                                    <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                    <div class="rev"><a href="#">05 Review</a></div>
-                                </div>
-                                <div class="text">Asix, Nyaman, Macet.</div>
+                                <div class="text">Hanoi, Sapa, Halong.</div>
                                 <div class="bottom-box clearfix">
                                     <div class="info">
                                         <span class="i-block"><i class="icon far fa-clock"></i> 5 days</span>
